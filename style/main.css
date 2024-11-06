@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.text1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 80px;
+    color: blue;
+    text-align: center;
+    display: block;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    margin-top: 0;
+    margin-left: 20%;
+    white-space: nowrap;
+}
+
+.text2 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+
+.text3 {
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    font-size: 36px;
+    color: orangered;
+    text-align: center;
+    margin-top: 10px;
+}
+
+body {
+    background-color: rgb(198, 233, 240);
+    height: 100%;
+    width: 100%;
+}
+
+.botton {
+    color: blue;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0 auto;
+    display: block;
+    background-color: rgb(172, 172, 172);
+    border: 10px blue solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botton:hover {
+    border: 10px orange solid;
+    color: orange;
+    background-color: rgb(212, 121, 240);
+}
+
+/* .leftColl {
+    /* margin-right: 100px; 
+}
+
+.rightColl {
+    /* margin-left: 100px; 
+} */
+
+.center {
+    display: flex;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+}
+
+.skate {
+    /* margin-right: 100px; */
+    width: 360px;
+}
+
+.home {
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    color: blue;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.glavnoeh1 {
+    text-align: center;
+    color: rgb(255, 93, 255);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+}
+
+.bottonKino {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cinemaIMG {
+    margin-left: 50px;
+    width: 150px;
+}
+
+.popcornCINEMA {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.nazva {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.reliz {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.opisanie {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.zanriIland {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.novinkiKINO {
+    margin-left: 20px;
+}
+
+.silka {
+    text-decoration: none;
+    color: rgb(71, 129, 255);
+    font-weight: 600px;
+}
+
+.background {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 60%;
+    -webkit-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+    height: 100vh;
+    /* height: 100%; */
+}
+
+.bottonglav {
+    margin-top: 18px;
+    color: blue;
+    width: 150px;
+    height: 50px;
+    border-radius: 7.5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0 auto;
+    display: block;
+    background-color: rgb(172, 172, 172);
+    border: 5px blue solid;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.golovna {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.backgroundNovinki {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 60%;
+    -webkit-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+    height: 100%;
+}
+
+.text1Novinki {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 80px;
+    color: blue;
+    text-align: center;
+    display: block;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    margin-top: 0;
+    margin-left: 20%;
+    white-space: nowrap;
+}
+
+.h2Fishing {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pFishing {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.facts {
+    text-align: center;
+}
+
+.h2moda {
+    text-align: center;
+        font-family: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.modaP {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgmoda {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
