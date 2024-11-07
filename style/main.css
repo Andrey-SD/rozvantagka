@@ -62,6 +62,7 @@ body {
   border: 10px orange solid;
   color: orange;
   background-color: rgb(212, 121, 240);
+  
 }
 
 .center {
@@ -222,7 +223,6 @@ body {
   margin-bottom: 10px;
 }
 
-@media (orientation: portrait) {}
 
 @media (max-width: 683px) {
   .background {
@@ -263,7 +263,7 @@ body {
   .bottonglav {
     font-size: 16px;
     margin: 5px;
-    border: 2px solid blue;
+    border: 10px solid blue;
     height: auto;
   }
 
