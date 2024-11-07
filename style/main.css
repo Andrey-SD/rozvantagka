@@ -1,261 +1,303 @@
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
 header {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .text1 {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 80px;
-    color: blue;
-    text-align: center;
-    display: block;
-    font-weight: 900;
-    text-decoration: none;
-    display: block;
-    margin-top: 0;
-    margin-left: 20%;
-    white-space: nowrap;
+  /* font-family: "Courier New", Courier, monospace; */
+  color: blue;
+  text-align: center;
+  display: block;
+  font-weight: 900;
+  text-decoration: none;
+  margin-top: 0;
+
 }
 
 .text2 {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 40px;
-    color: green;
-    text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: green;
+  text-align: center;
 }
 
 .text3 {
-    font-family: "Courier New", Courier, monospace;
-    font-style: italic;
-    font-size: 36px;
-    color: orangered;
-    text-align: center;
-    margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 36px;
+  color: orangered;
+  text-align: center;
+  margin-top: 10px;
 }
 
 body {
-    background-color: rgb(198, 233, 240);
-    height: 100%;
-    width: 100%;
+  background-color: rgb(198, 233, 240);
+  height: 100%;
+  width: 100%;
 }
 
 .botton {
-    color: blue;
-    width: 300px;
-    height: 100px;
-    border-radius: 15px;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 40px;
-    font-weight: 900;
-    display: flex;
-    margin-bottom: 30px;
-    padding: 0 auto;
-    display: block;
-    background-color: rgb(172, 172, 172);
-    border: 10px blue solid;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  color: blue;
+  height: 100px;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  display: block;
+  background-color: rgb(172, 172, 172);
+  border: 10px blue solid;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .botton:hover {
-    border: 10px orange solid;
-    color: orange;
-    background-color: rgb(212, 121, 240);
+  border: 10px orange solid;
+  color: orange;
+  background-color: rgb(212, 121, 240);
 }
-
-/* .leftColl {
-    /* margin-right: 100px; 
-}
-
-.rightColl {
-    /* margin-left: 100px; 
-} */
 
 .center {
-    display: flex;
-    /* padding-left: 400px;
-    padding-right: 400px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .skate {
-    /* margin-right: 100px; */
-    width: 360px;
+  width: 100%;
 }
 
 .home {
-    text-decoration: none;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 40px;
-    color: blue;
-    font-weight: 900;
-    margin-left: 100px;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: blue;
+  font-weight: 900;
+  margin-left: 100px;
 }
 
 .glavnoeh1 {
-    text-align: center;
-    color: rgb(255, 93, 255);
-    font-family: "Courier New", Courier, monospace;
-    font-size: 50px;
+  text-align: center;
+  color: rgb(255, 93, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
 }
 
 .bottonKino {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cinemaIMG {
-    margin-left: 50px;
-    width: 150px;
+  margin-left: 50px;
+  width: 150px;
 }
 
 .popcornCINEMA {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    margin-left: 25%;
-    margin-right: auto;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: auto;
 }
 
 .nazva {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
 }
 
 .reliz {
-    margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
 .opisanie {
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 
 .zanriIland {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
 }
 
 .novinkiKINO {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .silka {
-    text-decoration: none;
-    color: rgb(71, 129, 255);
-    font-weight: 600px;
+  text-decoration: none;
+  color: rgb(71, 129, 255);
+  font-weight: 600px;
 }
 
 .background {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    width: 60%;
-    -webkit-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
-    height: 100vh;
-    /* height: 100%; */
+  margin: 0 auto;
+  background-color: white;
+  width: max(70%, 655px);
+  -webkit-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
 }
 
 .bottonglav {
-    margin-top: 18px;
-    color: blue;
-    width: 150px;
-    height: 50px;
-    border-radius: 7.5px;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 30px;
-    font-weight: 700;
-    display: flex;
-    margin-bottom: 30px;
-    padding: 0 auto;
-    display: block;
-    background-color: rgb(172, 172, 172);
-    border: 5px blue solid;
-    text-align: center;
-    margin-left: 10px;
+  color: blue;
+  border-radius: 7.5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 5px 25px;
+  display: inline-block;
+  background-color: rgb(172, 172, 172);
+  border: 5px blue solid;
 }
 
 .golovna {
-    list-style-type: none;
-    width: 100%;
-    display: flex;
-    width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.backgroundNovinki {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    width: 60%;
-    -webkit-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 30px 33px rgba(255, 255, 255, 1);
-    height: 100%;
+.golovna li:nth-child(2) {
+  width: 100%;
 }
 
 .text1Novinki {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 80px;
-    color: blue;
-    text-align: center;
-    display: block;
-    font-weight: 900;
-    text-decoration: none;
-    display: block;
-    margin-top: 0;
-    margin-left: 20%;
-    white-space: nowrap;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80px;
+  color: blue;
+  text-align: center;
+  display: block;
+  font-weight: 900;
+  text-decoration: none;
+  display: block;
+  margin-top: 0;
+  margin-left: 20%;
+  white-space: nowrap;
 }
 
 .h2Fishing {
-    font-family: Arial,
-        Helvetica,
-        sans-serif;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  font-family: Arial,
+    Helvetica,
+    sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.pFishing {
-    font-family: Arial,
-        Helvetica,
-        sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-}
 
 .facts {
-    text-align: center;
+  text-align: center;
 }
 
 .h2moda {
-    text-align: center;
-        font-family: Arial,
-        Helvetica,
-        sans-serif;
+  text-align: center;
+  font-family: Arial,
+    Helvetica,
+    sans-serif;
 }
 
-.modaP {
-    font-size: 30px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+.modaP,
+.pFishing {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
 .imgmoda {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
 }
 
+@media (orientation: portrait) {}
+
+@media (max-width: 683px) {
+  .background {
+    width: 80%;
+  }
+
+  .golovna {
+    display: block;
+  }
+
+  .text1 {
+    font-family: "Gabriela", serif;
+    font-size: 7vw;
+  }
+
+  .text2 {
+    font-family: "Gabriela", serif;
+    font-size: 6vw;
+  }
+
+  .text3 {
+    font-family: "Gabriela", serif;
+    font-size: 5vw;
+  }
+
+  .center {
+    display: block;
+  }
+
+  .botton {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-family: "Gabriela", serif;
+  }
+
+  .botton,
+  .bottonglav {
+    font-size: 16px;
+    margin: 5px;
+    border: 2px solid blue;
+    height: auto;
+  }
+
+  .skate {
+    width: 100%;
+  }
+
+  .modaP,
+  .pFishing {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 683px) and (max-width: 1366px) {
+  .text1 {
+    font-size: 5vw;
+  }
+
+  .center {
+    text-align: center;
+    position: relative;
+    background-image: url(../image/скейт_раскрас_сжат.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+  }
+
+  .skate {
+    display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+  .text1 {
+    font-size: 5.5vw;
+  }
+}
